@@ -460,8 +460,7 @@ def ascii2str(result_binarys):
 
 
 
-#for i in range(43):
-for i in range(5):
+for i in range(43):
     qat_model_data = torch.load("lianghua_stego_200bits_jit"+str(i)+".pth")
 
     saved_model_dir = '../trained_models/'
